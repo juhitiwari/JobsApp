@@ -18,12 +18,18 @@ const MainNavigator=createBottomTabNavigator({
             deck:{screen:DeckScreen},
             review:{
                 screen:createStackNavigator({
-                    review:{screen:ReviewScreen,defaultNavigationOptions:{title:'Review Jobs'}},
+                    review:{screen:ReviewScreen},
                     setting:{screen:SettingsScreen}
                 })
             }
         })
     }
+
+  },{
+      lazy:true,
+      defaultNavigationOptions:{
+          tabBarVisible:false
+      }
 
   })
 
