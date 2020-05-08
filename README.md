@@ -1,7 +1,7 @@
 # JobsApp
 
 
-<img src="https://gifs.com/gif/jobsapp1-mO9ng0" width="300" height="500" />
+<img src="https://j.gifs.com/mO9ng0.gif" width="300" height="500" />
 
 <img src="https://github.com/juhitiwari/JobsApp/blob/master/s1.jpg" width="300" height="500" />
 
