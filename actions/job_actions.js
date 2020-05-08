@@ -16,23 +16,7 @@ const JOB_QUERY_PARAMS = {
 //  description: 'javascript'
 };
 
-const getJobsLonLat = jobs => {
-    Geocoder.init("AIzaSyCfcR0CiaMAqpc3e8_89D3sd6kEzBq2dFQ")
-    return jobs.map(job => {
-      return Geocoder.from(job.location).then(
-        json => {
-          const tempJob = {
-            ...job, 
-            longitude: json.results[0].geometry.location.lng, 
-            latitude: json.results[0].geometry.location.lat 
-          };
-          return tempJob;
-        },
-      error => {
-        console.log(error);
-      });
-    });
-  };
+
 
 const buildJobsUrl = (region) => {
     const { latitude, longitude } = region;
