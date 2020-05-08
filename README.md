@@ -1,6 +1,6 @@
 # JobsApp
 
-![alt text](https://github.com/juhitiwari/JobsApp/blob/master/s1.jpg)
+![alt text](https://github.com/juhitiwari/JobsApp/blob/master/s1.jpg | height=100)
 
 JobsApp is a job finding application developed using React Native and Expo. The app uses Facebook authentication and the Github 
 Jobs API to fetch jobs nearby the location chosen by the user on the map. Currently the API does not contain information about 
